@@ -169,7 +169,7 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
                     .withListener(this)
                     .alternativeRoutes(true)
                     .waypoints(Start, End)
-                    .key("AIzaSyCRycFJRIwqJfkxBVVrRehO4J2-NcOtdF8")
+                    .key("")
                     .build();
             routing.execute();
         }
